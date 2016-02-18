@@ -1,0 +1,257 @@
+﻿/* Store custom CSS in this file to prevent overwriting changes with software updates */
+
+/*背景*/
+
+/*body
+  {
+    background: url(../images/muji/back1.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    opacity: 0.9;
+  }*/
+
+
+
+
+
+
+/*ログイン画面のLOGO(現在バグによりcustomer.cssを読み込めない)*/
+
+  body > div > div > div > div > div > div.panel-body > div.col-md-5.hidden-sm.hidden-xs > img
+    {
+      background: url(../images/muji/logo.jpg) no-repeat;
+      display: block;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      width: 187px; /* Width of new image */
+      height: 184px; /* Height of new image */
+      padding-left: 187px; /* Equal to width of new image */
+    }
+
+/*ボタンイメージ*/
+
+/*
+#transactionForm > div.container-fluid > div:nth-child(1) > div:nth-child(1) > img
+
+{
+  background: url(../images/muji/logo.jpg) no-repeat;
+  display: block;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 48px; /* Width of new image */
+  /*height: 48px; /* Height of new image */
+    /*padding-left: 48px; /* Equal to width of new image */
+  /*}*/
+
+
+/*POS TOP画面から顧客を隠す*/
+
+  body > div > div.container-fluid.ng-scope > div.row > div:nth-child(2),
+  #storeOperationButton
+
+  {
+    visibility: hidden;
+  }
+
+/*POS TOP画面から不要なボタンを削除*/
+
+  body > div > div.container-fluid.ng-scope > div:nth-child(2) > div > div.panel-body > div:nth-child(2) > div:nth-child(1),
+  body > div > div.container-fluid.ng-scope > div:nth-child(2) > div > div.panel-body > div:nth-child(2) > div:nth-child(2),
+
+  /*body > div:nth-child(1) > div.container-fluid.ng-scope > div:nth-child(2) > div > div.panel-body > div:nth-child(2) > div:nth-child(2),*/
+  body > div > div.container-fluid.ng-scope > div:nth-child(2) > div > div.panel-body > div:nth-child(2) > div:nth-child(3),
+  body > div > div.container-fluid.ng-scope > div:nth-child(2) > div > div.panel-body > div.row.row-margin > div:nth-child(1),
+  body > div > div.container-fluid.ng-scope > div:nth-child(2) > div > div.panel-body > div.row.row-margin > div:nth-child(2),
+  body > div > div.container-fluid.ng-scope > div:nth-child(2) > div > div.panel-body > div.row.row-margin > div:nth-child(3),
+
+ /*sales とかreturnとか削除*/
+  #orderItemTypeButton,
+  #advancedLookup,
+  #transactionForm > div.container-fluid > div:nth-child(2) > div.col-xs-7 > div > div > div.no-pad > div > div.col-xs-10 > div:nth-child(2),
+  #saleItemTypeButton,
+  #returnItemTypeButton,
+  /*アイテム機能バーの非表示*/
+  /*#transactionItems > div > div,*/
+
+  /*アイテムセレクト画面から上部ボタンを排除*/
+  #transactionForm > div.container-fluid > div:nth-child(2) > div.col-xs-7 > div > div > div.no-pad > div > div.col-xs-10 > div:nth-child(2) > div > div > div:nth-child(1),
+  #transactionForm > div.container-fluid > div:nth-child(2) > div.col-xs-7 > div > div > div.no-pad > div > div.col-xs-10 > div:nth-child(2) > div > div > div:nth-child(3),
+  #transactionForm > div.container-fluid > div:nth-child(2) > div.col-xs-7 > div > div > div.no-pad > div > div.col-xs-10 > div:nth-child(2) > div > div > div:nth-child(4),
+  /*返品にカスタマイズしたCash tenderボタンを削除*/
+
+#transactionForm > div.container-fluid > div:nth-child(2) > div.col-xs-3 > div > div > div.simple-QTenders > div:nth-child(5) > div:nth-child(1)
+    {
+      display: none !important;
+    }
+
+/*伝票詳細ボタンを少し上にあげる*/
+
+#transactionForm > div.container-fluid > div:nth-child(2) > div.col-xs-3 > div > div > div.simple-QTenders > div:nth-child(6) > div
+{
+  top:-10px;
+}
+
+
+/*売り上げ画面のタイトル*/
+
+#cyber
+{
+
+ color: white !important;
+
+
+}
+
+
+
+
+/*硬貨ボタンカスタマイズ*/
+
+#oneDollarButton
+{
+  content: "1円";
+  font-size: 2;
+
+}
+
+
+/*.col-xs-12 {
+  width: 120%;
+  }*/
+
+
+/*数量調整ブタン等の位置変更*/
+
+/*#quantityPlusOneButton,
+#quantityMinusOneButton
+{
+position:relative;
+top:19px;
+
+}*/
+
+/*売り上げ　左の画面と右の画面を近づける*/
+/*#transactionForm > div.container-fluid > div:nth-child(2) > div.col-xs-4
+
+{
+width: 40%;
+
+}*/
+
+
+#transactionForm > div.container-fluid > div:nth-child(2)
+{
+width: 110%;
+
+}
+
+/*売り上げ　アイテム機能ボタンのレイアウト*/
+
+#transactionForm > div.container-fluid > div:nth-child(2) > div.col-xs-3 > div > div > div.simple-QTenders > div:nth-child(1) > div
+{
+  position:relative;
+  top:15px;
+  margin: 1px;
+}
+/*ボタンの幅　調整*/
+#transactionForm > div.container-fluid > div:nth-child(2) > div.col-xs-3 > div > div > div.simple-QTenders > div:nth-child(1) > div > div:nth-child(1),
+#transactionForm > div.container-fluid > div:nth-child(2) > div.col-xs-3 > div > div > div.simple-QTenders > div:nth-child(1) > div > div:nth-child(2),
+#transactionForm > div.container-fluid > div:nth-child(2) > div.col-xs-3 > div > div > div.simple-QTenders > div:nth-child(1) > div > div:nth-child(3),
+#transactionForm > div.container-fluid > div:nth-child(2) > div.col-xs-3 > div > div > div.simple-QTenders > div:nth-child(1) > div > div:nth-child(4),
+#transactionForm > div.container-fluid > div:nth-child(2) > div.col-xs-3 > div > div > div.simple-QTenders > div:nth-child(1) > div > div:nth-child(5),
+#transactionForm > div.container-fluid > div:nth-child(2) > div.col-xs-3 > div > div > div.simple-QTenders > div:nth-child(1) > div > div:nth-child(6)
+{
+  position:relative;
+width: 32%;
+}
+
+
+/*#cyber2
+
+{
+width: 80% !important;
+
+}*/
+
+/*アイテム詳細モーダルのシンプル化*/
+
+#itemDetailsForm > div > div.modal-body > div > div.form-group > div > button:nth-child(3),
+#itemDetailsForm > div > div.modal-body > div > div.form-group > div > button:nth-child(4),
+#itemDetailsForm > div > div.modal-body > div > div.form-group > div > button:nth-child(5),
+#itemDetailsForm > div > div.modal-body > div > div.form-group > div > button:nth-child(6)
+{
+  display: none !important;
+}
+
+
+/*アイテムタイプモーダルのシンプル化*/
+
+#itemTypeOrderButton,
+#itemTypeSendSaleButton
+{
+  display: none !important;
+}
+
+/*tender button にもってきた機能ボタンのレイアウト*/
+
+/*#transactionForm > div.container-fluid > div:nth-child(2) > div.col-xs-4 > div > div > div.simple-QTenders > div:nth-child(1) > div
+
+{
+  position:relative;
+  top:20px;
+  /*transform: scale(0.85);*/
+  /*left:-23px;*/
+
+/*}*/
+
+
+
+a.list-group-item.active,
+a.list-group-item.active:hover,
+a.list-group-item.active:focus {
+  z-index: 2;
+  color: #ffffff;
+  background-color: #003366;
+
+/*sota edit start*/
+  /*border-color: #000033;*/
+  /*border-color: #ff0000;*/
+  /*border-color: #7ebae0;*/
+    border-color: #002c58;
+  border-width: 2px 2px 2px 2px;
+
+/*sota edit end*/
+  }
+
+/*売上画面　ロゴの変更*/
+
+/*#transactionForm > div.container-fluid > div:nth-child(1) > div:nth-child(1) > img
+  {
+    background: url(../images/diesel/LOGO.jpg) no-repeat;
+    /*display: block;*/
+    /*-moz-box-sizing: border-box;
+    box-sizing: border-box;*/
+    /*width: 80%;  /* Width of new image */
+    /*height: 80%; /* Height of new image */
+    /*padding-left: 187px; /* Equal to width of new image */
+  /*} */
+
+/*売上画面の右側高さ調整*/
+#transactionForm > div.container-fluid > div:nth-child(2) > div.col-xs-3 > div > div > div.simple-QTenders
+{
+height: 30%;
+
+}
+
+
+#transactionForm > div.container-fluid > div:nth-child(2) > div.col-xs-3 > div > div > div:nth-child(2) > div > div > table,
+#documentTotal,
+#tenderbutton
+{
+position:relative;
+top:10px;
+
+
+}

@@ -1,0 +1,66 @@
+.form-group.fg-simple { margin: 0 0 5px 0 !important; } /* Aligns items items within form groups */
+@media (min-width: 768px) { .simpleTransactionForm .container { width: 730px; }	.simpleTransactionForm .navbar > .container .navbar-brand, .simpleTransactionForm .navbar > .container-fluid .navbar-brand { margin-left: -5px; } }
+@media (min-width: 992px) { .simpleTransactionForm .container { width: 950px; } }
+@media (min-width: 1200px) {.simpleTransactionForm .container { width: 1150px;} }
+.simpleTransactionForm .navbar-form, .simpleTransactionForm .container > .navbar-header, .simpleTransactionForm .container-fluid > .navbar-header, .simpleTransactionForm .container > .navbar-collapse, .simpleTransactionForm .container-fluid > .navbar-collapse, .simpleTransactionForm .row, .simpleTransactionForm .form-horizontal .form-group { margin: 0 -5px; }
+.simpleTransactionForm .form-horizontal .has-feedback .form-control-feedback { margin-right: 5px; }
+.simpleTransactionForm .navbar-toggle { margin: 3px 5px 3px 0px ;}
+.simpleTransactionForm .navbar-form, .simpleTransactionForm .navbar-btn { margin: -2.5px 0px; }
+.simpleTransactionForm .navbar-btn.btn-sm { margin: 6px 0px; }
+.simpleTransactionForm .navbar-btn.btn-xs, .simpleTransactionForm .nabar-text { margin: 9px 0px; }
+.simpleTransactionForm .navbar-collapse, .simpleTransactionForm .container-fluid, .simpleTransactionForm .col-xs-1, .simpleTransactionForm .col-sm-1, .simpleTransactionForm .col-md-1, .simpleTransactionForm .col-lg-1, .simpleTransactionForm .col-xs-2, .simpleTransactionForm .col-sm-2, .simpleTransactionForm .col-md-2, .simpleTransactionForm .col-lg-2, .simpleTransactionForm .col-xs-3, .simpleTransactionForm .col-sm-3, .simpleTransactionForm .col-md-3, .simpleTransactionForm .col-lg-3, .simpleTransactionForm .col-xs-4, .simpleTransactionForm .col-sm-4, .simpleTransactionForm .col-md-4, .simpleTransactionForm .col-lg-4, .simpleTransactionForm .col-xs-5, .simpleTransactionForm .col-sm-5, .simpleTransactionForm .col-md-5, .simpleTransactionForm .col-lg-5, .simpleTransactionForm .col-xs-6, .simpleTransactionForm .col-sm-6, .simpleTransactionForm .col-md-6, .simpleTransactionForm .col-lg-6, .simpleTransactionForm .col-xs-7, .simpleTransactionForm .col-sm-7, .simpleTransactionForm .col-md-7, .simpleTransactionForm .col-lg-7, .simpleTransactionForm .col-xs-8, .simpleTransactionForm .col-sm-8, .simpleTransactionForm .col-md-8, .simpleTransactionForm .col-lg-8, .simpleTransactionForm .col-xs-9, .simpleTransactionForm .col-sm-9, .simpleTransactionForm .col-md-9, .simpleTransactionForm .col-lg-9, .simpleTransactionForm .col-xs-10, .simpleTransactionForm .col-sm-10, .simpleTransactionForm .col-md-10, .simpleTransactionForm .col-lg-10, .simpleTransactionForm .col-xs-11, .simpleTransactionForm .col-sm-11, .simpleTransactionForm .col-md-11, .simpleTransactionForm .col-lg-11, .simpleTransactionForm .col-xs-12, .simpleTransactionForm .col-sm-12, .simpleTransactionForm .col-md-12, .simpleTransactionForm .col-lg-12 { padding: 0px 5px; }
+.simpleTransactionForm .nav > li > a { padding: 5px; }
+.simpleTransactionForm .navbar-form { padding: 10px 5px;}
+.simpleTransactionForm .pagination > li > a, .simpleTransactionForm .pagination > li > span, .simpleTransactionForm  .btn, .simpleTransactionForm .input-group-addon { padding: 11px 15px; font-size: 15px; }
+.simpleTransactionForm .pagination-lg > li > a, .simpleTransactionForm .pagination-lg > li > span , .simpleTransactionForm .input-group-addon.input-lg, .simpleTransactionForm .input-group-lg > .form-control, .simpleTransactionForm .input-group-lg > .input-group-addon, .simpleTransactionForm .input-group-lg > .input-group-btn > .btn, .simpleTransactionForm  .btn-lg, .simpleTransactionForm .btn-group-lg > .btn, .simpleTransactionForm .input-lg { height: 58; line-height: 58px; padding: 15px 27px; font-size: 19px; }
+.simpleTransactionForm .pagination-sm > li > a, .simpleTransactionForm .pagination-sm > li > span , .simpleTransactionForm .input-group-addon.input-sm, .simpleTransactionForm .input-group-sm > .form-control, .simpleTransactionForm .input-group-sm > .input-group-addon, .simpleTransactionForm .input-group-sm > .input-group-btn > .btn, .simpleTransactionForm  .btn-sm, .simpleTransactionForm .btn-group-sm > .btn, .simpleTransactionForm .input-sm { height: 30px; padding: 3px 9px; font-size: 13px; }
+.simpleTransactionForm .form-control { height: 45px; padding: 11px 15px; margin-bottom: 20px; }
+.simpleTransactionForm  .navbar-form { margin: -2.5px -5px; padding: 10px 5px; }
+#itemLookup.simpleLookup, #customerLookup.simpleLookup { margin-bottom: 5px; } /* sets spacing below item and customer lookup inputs */
+#itemLookup.simpleLookup { padding-left:  20px; } /* creates offset inside item lookup input to align with text on rest of page */
+#timeDiv { font-size: 10px; height: 50px; text-align: right; } /* Customizations for time/date div */
+#timeDiv span { line-height: 90px; margin-right: 5px; } /* Settings for the Date label */
+#timeDiv span:last-of-type { margin-right: 8px; } /* Settings for the date stamp */
+#OrderDetailsButton, #TransactionDetailsButton, #CashButton, #CheckButton, #DebitCardButton, #CreditCardButton, #GiftCardButton, #GiftCertificateButton { width: 100%; margin-bottom: 5px; }
+.panel.panel-branding { margin-bottom: 0px; position: relative; background-color: transparent;}
+.panel-heading.panel.panel-branding { padding: 5px !important; }
+.panel.panel-branding .panel-title { text-align: center; }
+.panel.panel-branding .panel-body { margin-top: 5px; padding: 0px; background-color: transparent; }
+.panel.panel-branding .panel-footer { background-color: transparent; }
+.panel.panel-branding .panel>.list-group .list-group-item { padding: 5px !important; margin: 0px 0px 5px 5px; }
+.panel.panel-branding .tender-footer { border: none; width: 100%; margin: 0px; padding: 5px !important; bottom: 0px; position: absolute; }
+.simpleTransactionForm #subTotal { padding: 4px 15px; }
+.bg-primary h1 { text-align: right; margin: 5px 0 !important; padding: 0px 5px; }
+table.table-smallmargin { margin-bottom: 5px !important; padding: 2px; } /* removes built in 21px margin from bootstrap */
+table.table-smallmargin td.text-right { width: 50%; } /* sets width of right side table cells */
+.panel.panel-branding table .btn {padding: 5px 10px;}
+
+.panel.panel-branding { background-color: rgba(120,120,120,1);  } /* Sets the background colors of the boxes around the simple layout components */
+
+.MediumResultsPane { background: rgba(255,255,255,1); } /* Sets background color of transaction area */
+.MediumResultsPane .panel>.list-group .list-group-item { border: 1px solid #cccccc !important; } /* sets border color of transaction items */
+/* List Item styling */
+.simpleTransactionForm a.list-group-item.active, .simpleTransactionForm a.list-group-item.active:hover, .simpleTransactionForm a.list-group-item.active:focus { background-color: #ffffff; color: #000000;}
+/* Button Bar Separator Lines */
+.btn-group > .btn-group:not(:last-child) > .btn.btn-primary {border-right: solid 1px rgba(18,68,102,0.4);}
+.btn-group > .btn-group:not(:last-child) > .btn.btn-info {border-right: solid 1px rgba(18,68,102,0.4);}
+.btn-group > .btn-group:not(:last-child) > .btn.btn-success {border-right: solid 1px rgba(18,68,102,0.4);}
+.btn-group > .btn-group:not(:last-child) > .btn.btn-warning {border-right: solid 1px rgba(18,68,102,0.4);}
+.btn-group > .btn-group:not(:last-child) > .btn.btn-danger {border-right: solid 1px rgba(18,68,102,0.4);}
+.btn-group > .btn-group:not(:last-child) > .btn.link {border-right: solid 1px rgba(18,68,102,0.4);}
+.simpleTransactionForm .container { padding: 0 5px; }
+.simpleTransactionForm .MediumResultsPane{ margin: 5px -5px 0px -5px !important; padding-top: 5px; } /* sets height of item listing screen and bottom spacing */
+/* Removing top corners on button bars in the Medium Panel */
+.MediumResultsPane .btn-group > .btn-group:first-child > .btn:last-child { border-top-left-radius: 0px; }
+.MediumResultsPane .btn-group > .btn-group:last-child > .btn:first-child { border-top-right-radius: 0px; }
+.form-group.simple-tenders{ 	margin-bottom:5px;	}
+.simpleTransactionForm .btn-group{ 	margin-top:-15px; }
+.simpleTransactionForm .MediumResultsPane .btn-group{ 	margin-top:0px; }
+#actionButtons { margin-top: 0px; }
+.simpleTransactionForm .btn-group .btn{ 	padding:11px 15px;	font-size:15px;	}
+.simpleTransactionForm .panel-collapse table{	margin-top:-10px;	}
+.simple-tenders{	position:relative;	top:-15px;	}
+.simple-QTenders {	margin-top: -5px;	margin-bottom: 15px;	width: 100%;	}
+.simple-tenders .btn, .simple-QTenders .btn{	margin-top:5px;	height:45px;	font-size:15px;	}
+.subTotal{	padding:10px;	}
+.date-span{	position:relative;	top:35px;	font-size:10px;	color:#787878;	}
